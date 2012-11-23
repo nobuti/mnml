@@ -1,6 +1,9 @@
 /* Base
 ================================================== */
+@import "modules/normalize";
 
 body {
-  font-family: Helvetica,Arial,sans-serif;
+  font: 16px/1.5 Helvetica,Arial,sans-serif;
+  color: #3b3b3b;
+  background: darken(#fefefe, 20%) url("../images/fabric_plaid.png");
 }
